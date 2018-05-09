@@ -6,16 +6,23 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 ** working directory have many files, which all may not required to be tracked. hence staging area, where we tell git to start tracking specific files.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+**by using staging area we can specifically select few files (of 1 logical change) out of many files which might have changed (bcos of many logical changes). 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+**trying out new experimental features, without affecting main version
 
 How do the diagrams help you visualize the branch structure?
+**diagrams help understanding branches and parents
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+**1 or more branches are merged into checked out branch, by merging code changes of each branch. Diagram helps understanding relationship between parents and heads.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+**automatic merging-- Pros: fast and accurate, Cons: can not resolve conflicts, requires Machine Learning
+**manual meeging-- Pros: freedom to decide, Cons: cumbersome, error prone
